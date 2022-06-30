@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		64D8D5B2286DF41E00FDE5A8 /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5B1286DF41E00FDE5A8 /* DemoAppApp.swift */; };
-		64D8D5B4286DF41E00FDE5A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5B3286DF41E00FDE5A8 /* ContentView.swift */; };
+		64D8D5B4286DF41E00FDE5A8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5B3286DF41E00FDE5A8 /* MeetingView.swift */; };
 		64D8D5B6286DF42100FDE5A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8D5B5286DF42100FDE5A8 /* Assets.xcassets */; };
 		64D8D5B9286DF42100FDE5A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8D5B8286DF42100FDE5A8 /* Preview Assets.xcassets */; };
 		64D8D5C3286DF42100FDE5A8 /* DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5C2286DF42100FDE5A8 /* DemoAppTests.swift */; };
 		64D8D5CD286DF42100FDE5A8 /* DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5CC286DF42100FDE5A8 /* DemoAppUITests.swift */; };
 		64D8D5CF286DF42100FDE5A8 /* DemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5CE286DF42100FDE5A8 /* DemoAppUITestsLaunchTests.swift */; };
+		64D8D5DF286DF73400FDE5A8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5DE286DF73400FDE5A8 /* Theme.swift */; };
+		64D8D5E1286DF7F900FDE5A8 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5E0286DF7F900FDE5A8 /* DailyScrum.swift */; };
+		64D8D5E3286DFA0B00FDE5A8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5E2286DFA0B00FDE5A8 /* CardView.swift */; };
+		64D8D5E5286E005900FDE5A8 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5E4286E005900FDE5A8 /* TrailingIconLabelStyle.swift */; };
+		64D8D5E7286E02FA00FDE5A8 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5E6286E02FA00FDE5A8 /* ScrumsView.swift */; };
+		64D8D5E9286E1D2100FDE5A8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8D5E8286E1D2100FDE5A8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		64D8D5AE286DF41E00FDE5A8 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8D5B1286DF41E00FDE5A8 /* DemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppApp.swift; sourceTree = "<group>"; };
-		64D8D5B3286DF41E00FDE5A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64D8D5B3286DF41E00FDE5A8 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		64D8D5B5286DF42100FDE5A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D8D5B8286DF42100FDE5A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64D8D5BE286DF42100FDE5A8 /* DemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		64D8D5C8286DF42100FDE5A8 /* DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8D5CC286DF42100FDE5A8 /* DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITests.swift; sourceTree = "<group>"; };
 		64D8D5CE286DF42100FDE5A8 /* DemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64D8D5DE286DF73400FDE5A8 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		64D8D5E0286DF7F900FDE5A8 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		64D8D5E2286DFA0B00FDE5A8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		64D8D5E4286E005900FDE5A8 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		64D8D5E6286E02FA00FDE5A8 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		64D8D5E8286E1D2100FDE5A8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,15 @@
 		64D8D5B0286DF41E00FDE5A8 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				64D8D5DB286DF6F200FDE5A8 /* Models */,
 				64D8D5B1286DF41E00FDE5A8 /* DemoAppApp.swift */,
-				64D8D5B3286DF41E00FDE5A8 /* ContentView.swift */,
+				64D8D5B3286DF41E00FDE5A8 /* MeetingView.swift */,
 				64D8D5B5286DF42100FDE5A8 /* Assets.xcassets */,
 				64D8D5B7286DF42100FDE5A8 /* Preview Content */,
+				64D8D5E2286DFA0B00FDE5A8 /* CardView.swift */,
+				64D8D5E4286E005900FDE5A8 /* TrailingIconLabelStyle.swift */,
+				64D8D5E6286E02FA00FDE5A8 /* ScrumsView.swift */,
+				64D8D5E8286E1D2100FDE5A8 /* DetailView.swift */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -125,6 +142,15 @@
 				64D8D5CE286DF42100FDE5A8 /* DemoAppUITestsLaunchTests.swift */,
 			);
 			path = DemoAppUITests;
+			sourceTree = "<group>";
+		};
+		64D8D5DB286DF6F200FDE5A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64D8D5DE286DF73400FDE5A8 /* Theme.swift */,
+				64D8D5E0286DF7F900FDE5A8 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D8D5B4286DF41E00FDE5A8 /* ContentView.swift in Sources */,
+				64D8D5E1286DF7F900FDE5A8 /* DailyScrum.swift in Sources */,
+				64D8D5E9286E1D2100FDE5A8 /* DetailView.swift in Sources */,
+				64D8D5E5286E005900FDE5A8 /* TrailingIconLabelStyle.swift in Sources */,
+				64D8D5DF286DF73400FDE5A8 /* Theme.swift in Sources */,
+				64D8D5E7286E02FA00FDE5A8 /* ScrumsView.swift in Sources */,
+				64D8D5B4286DF41E00FDE5A8 /* MeetingView.swift in Sources */,
 				64D8D5B2286DF41E00FDE5A8 /* DemoAppApp.swift in Sources */,
+				64D8D5E3286DFA0B00FDE5A8 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RYBLB2N42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -445,6 +478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RYBLB2N42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
